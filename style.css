@@ -1,0 +1,53 @@
+html{
+  padding: 300px;
+  background: #0B5345 ;
+  margin-top: -50px;
+}
+
+h1{
+  margin: 85px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  text-align: center;
+  font-size: 75px;
+  color:#F5F5F5;
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #708090;
+}
+
+.fancy{
+  font-family:fantasy;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+.center{
+  text-align: center;
+}
+
+h3, p, ul, ol{
+  font-family: sans-serif;
+  padding: 5px;
+  color:#ECF0F1;
+  list-style-position: inside;
+}
+
+hr{
+  border: 0;
+  height: 1px;
+  background-color:white;
+}
+
+nav{
+  font-family: Arial, Helvetica, sans-serif;
+  align-text: right;
+}
+
+a:link {color:#ECF0F1;}
+a:visited {color: #ECF0F1;}
+a:hover {color: #9ACD32;}
+a:active {color: #6B8E23;}
