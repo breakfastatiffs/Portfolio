@@ -1,3 +1,4 @@
+/*background and webpage layout*/
 html{
   padding: 300px;
   background: #0B5345 ;
@@ -19,6 +20,7 @@ h2{
   color: #708090;
 }
 
+/*about me header font*/
 .fancy{
   font-family:fantasy;
   font-size: 30px;
