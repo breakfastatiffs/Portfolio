@@ -1,112 +1,171 @@
-html{
-  background: #fff ;
-  padding-left: 25%;
-  padding-right: 25%;
-  margin-top: 15%;
+main{
+  display: flex;
+  flex-direction: column;
+  background: #DEB5D6 ;
+  margin: 20px;
+  padding: 8px;
+}
+
+.flexGroup{
+  display: flex;
+  justify-content: center;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #FCFCF7;
+  width: 90%;
 }
 
 header{
-  margin: 20px;
+  margin-top: 5px;
   align-items: center;
-  justify-content: center;
   text-align: center;
   color:#000;
 }
 
-header h1, h2{
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 10px;
+
+header nav ul{
+  margin: 25px;
+  padding-inline-start: 0;
+  list-style: none;
+  font-family: oswald;
 }
 
 header h1{
   font-family: Lobster;
-  font-size: 70px;
+  font-size: 40px;
+  letter-spacing: .03em;
 }
 
 header h2{
   font-family: Yellowtail;
-  font-size: 55px;
+  font-size: 25px;
+  letter-spacing: .03em;
+}
+
+.projectTitles{
+  font-style: oblique;
+  font-weight: 700;
 }
 
 body{
-  font-family: sans-serif;
-  padding: 10px;
-  display: flex;
-  color:#000;
-  list-style-position: inside;
-  justify-content: center;
+  color: #211B36;
+  font-family: oswald;
+  padding: 5px;
 }
 
-hr{
-  display: flex;
-  border: 0;
-  height: 1px;
-  background-color:white;
+body ul{
+  padding-inline-start: 30px;
 }
 
-header nav{
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  list-style: none;
+body ul li{
+  padding: 3px
 }
 
-header nav ul{
-  list-style: none;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+#button{
+  margin: 15px;
+  padding: 5px 10px;
+  background-color: #B1B1F1;
+  color: #262040;
+  border-radius: 15px;
 }
 
-.group{
-  display: flex;
-}
-.item{
-  margin: 3px;
-  flex: 1;
-}
-
-.item-double{
-  flex: 2;
+#letsChat{
+  color: #382E5C;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
 }
 
-.group img{
-  width: 100%;
+form{
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
 }
 
-form input{
-  margin: 10px 15x;
+#formMessage{
+  margin: 5px;
+  height: 60px;
 }
 
-form input[type=textarea] {
-  width: 70%;
-  height: 250px;
-}
 
-form textarea {
-  width: 100%;
-}
 
-@media all and (max-width: 600px){
 
- header h1{
-   font-size: 40px;
- }
+@media all and (min-width: 600px){
 
- header h2{
-  font-size: 30px;
-}
-  .group{
-    display: flex;
-    flex-direction: column;
-    margin-top: -10px;
+  body{
+    margin-left: 35px;
+    margin-right: 35px;
   }
 
-} 
+  header{
+    margin-top: 35px;
+  }
 
-a:link {color:#000;}
-a:visited {color: #20005c;}
-a:hover {color: #ff008c;}
-a:active {color: #ca9b00;}
+  header h1{
+    font-size: 75px;
+  }
+
+  header h2{
+    font-size: 70px;
+  }
+
+  h3{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  #letsChat{
+    visibility: hidden;
+  }
+
+  header nav ul li{
+    font-size: 20px;
+    display: inline;
+    flex-direction: row;
+  }
+
+  .group {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+  }
+  
+  .item {
+    flex: 1;
+    margin: 10px;
+  }
+
+  .item-double{
+    flex: 2;
+    margin: 10px;
+  }
+
+#email{
+  width: 329px;
+}
+
+#formMessage{
+  margin: 5px;
+  height: 300px;
+  width: 100%;
+}
+
+#socialMedia{
+  text-align: center;
+  list-style: none;
+  padding: 10px;
+  font-size: 25px;
+}
+
+}
+
+a:link {color:#A3398C;}
+a:visited {color: #42376D;}
+a:hover {color: #6E9887;}
+a:active {color: #FDFCDD;}
