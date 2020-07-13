@@ -5,51 +5,44 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Tiffany Summerford's Portfolio</title>
-  <link href="style.css" rel="css stylesheet" type="text/css" />
+  <link href="style.css" rel="css stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <main>
-  <!-- header -->
   <header>
     <h1>Tiffany Summerford</h1>
     <h2>Software Engineer</h2>
-    <!-- navigation -->
     <nav>
-      <div class="group">
-        <ul>
-          <li>
-            <div class="item"> <a href="#about">About</a></div>
-          </li>
-          <li>
-            <div class="item"> <a href="#projects">Projects</a></div>
-          </li>
-          <li>
-            <div class="item"> <a href="#contact">Contact</a></div>
-          </li>
-        </ul>
-        <br>
-      </div>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
   <body>
-
-
     <!--intro-->
-    <article>
-      <div class="group">
-        <div class="item"><img src="images/Tiff.JPG" width="200" alt="Picture of me">
-          <h3>Hey There!</h3>
-          <p>I'm a software developer from the Greater Boston Area who has a passion for the arts and betterment of
-            humanity! As Gandhi once said, "You must be the change you want to see in the world." - so I am
-            ever-consciously making an effort to improve myself: Mentally. Emotionally. & Physically. As a person who is
-            constantly evolving, choosing a career that's doing the same thing makes the most sense.</p>
-        </div>
+    <div class="group">
+      <div class="item-double"> <img src="images/Tiff.JPG" width="200" alt="Picture of Tiffany Summerford"></div>
+      <div class="item">
+        <h3>Hey There!</h3>
+        <p>I'm a software developer from the Greater Boston Area who has a passion for the arts and betterment of
+          humanity! As Gandhi once said, "You must be the change you want to see in the world." - so I am
+          ever-consciously making an effort to improve myself: Mentally, emotionally, and physically. As a person who is
+          constantly evolving, choosing a career that's doing the same thing makes the most sense.</p>
       </div>
-    </article>
 
-    <!-- about me -->
-    <article>
+      <!-- about me -->
       <div class="item">
         <a id="about"></a>
         <h3>About</h3>
@@ -57,81 +50,90 @@
           aesthetics of my profile and figuring out how to make it more appealing. I've always been a creative person
           and even studied fashion for a little bit. I still love fashion, but I am less interested in a materialistic
           field and more interested in working with others who share the common goal of wanting to make the world a
-          better place. Some skills I can provide are:
-        </p>
-        <ul>
-          <li>Creativity and thinking outside of the box.</li>
-          <li>Persevearance and strong will.</li>
-          <li>Active listening skills.</li>
-        </ul>
-        <p>
-          <li>
-          If you think we'd make a great team, then <a href="#contact">let's chat!</a>
+          better place
         </p>
       </div>
-    </article>
+    </div>
 
+
+    <p id="letsChat">If you think we'd make a great team, <a href="#contact">let's chat!</a>
+    </p>
+
+    <a id="projects"></a>
+    <h3>Projects</h3>
     <div class="group">
-      <a id="Projects"></a>
-      <div class="item item-double">
-        <h4>Title</h4>
-        <p>Description Filler blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah</p>
+      <div class="item">
+        <h4>Title of First Project</h4>
         <a href="landingPageURL1">
           <img src="images/sample.jpg" alt="sample-project"></a>
+        <p class="projectTitles">Description:</p>
+        <p>Area elit a maioribus, qui ad artes seu meliorationem humanitatem habet passion! Sicut Gandhi semel dixit
+          "eris, te volo ad mutationem in mundo." - ego igitur semper, scientes quod conatus ad amplio ipse facit:
+          secundum intellectum. Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter evolving
+          penetratque cavas vox vitae est facere suus 'idem facit maxime sensu.</p>
+        <p class="projectTitles">Skills Used:</p>
+        <p>Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter</p>
+        <a href="landingPageURL1">Link to app</a>
+        <br>
+        <a href="landingPageURL1">Link to repo</a>
       </div>
-      <div class="item item-double">
-        <h4>Title</h4>
-        <p>Description Filler blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah</p>
+      <div class="item">
+        <h4>Title of Second Project</h4>
         <a href="landingPageURL2">
           <img src="images/sample.jpg" alt="sample-project"></a>
+        <p class="projectTitles">Description:</p>
+        <p>Friendster mea interest in coding started quasi hedum in frusta concerperet, cum adhuc esset popularibus. Ego
+          probaverunt circum ludere cum meis profile AESTHETICA et remanens, quomodo ad eum appellantibusque amplius.
+          Ego
+          semper partum fuerit homo in exigua forma et studied.</p>
+        <p class="projectTitles">Skills Used:</p>
+        <p>Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter</p>
+        <a href="landingPageURL1">Link to app</a>
+        <br>
+        <a href="landingPageURL1">Link to repo</a>
       </div>
-      <div class="item item-double">
-        <h4>Title</h4>
-        <p>Description Filler blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
-          blah</p>
+      <div class="item">
+        <h4>Title of Third Project</h4>
         <a href="landingPageURL3">
           <img src="images/sample.jpg" alt="sample-project"></a>
+        <p class="projectTitles">Description:</p>
+        <p>Ego amare oppidum, sed me minus interested in materialismo ponens et plus interested in agris operantes cum
+          aliis ad participes et commune propositum wanting facere mundum meliore loco. Quidam artes providere quia
+          bigas
+          est non possum.</p>
+        <p class="projectTitles">Skills Used:</p>
+        <p>Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter</p>
+        <a href="landingPageURL1">Link to app</a>
+        <br>
+        <a href="landingPageURL1">Link to repo</a>
       </div>
     </div>
 
     <!-- contact info -->
-    <article>
-      <div class="group">
-        <div class="item">
-          <a id="contact"></a>
-          <h3>Stay In Touch</h3>
-          <ul>
-            <li> <a href="https://www.linkedin.com/in/tiffany-summerford-040975172/" target="_blank">LinkedIn</a> </li>
-            <li> <a href="https://github.com/breakfastatiffs/" target="_blank">GitHub</a> </li>
-            <li> <a href="mailto:TiffanySummerford@gmail.com?subject=Great%20Portfolio!">Email Me</a> </li>
-          </ul>
-        </div>
-      </div>
-    </article>
-    <form>
-
+    <div class="group">
       <div class="item">
-        <form action="https://formspree.io/xyyndvqr" method="POST">
-          <input type="text" name="name" placeholder="Name">
-          <input type="email" name="_replyto" placeholder="Email">
-          <textarea id="form-message" name="message" placeholder="Message"></textarea>
-          <input type="submit" value="Send">
-        </form>
+        <h3>Stay In Touch</h3>
+        <ul id="socialMedia">
+          <li> <a href="https://www.linkedin.com/in/tiffany-summerford-040975172/" target="_blank">LinkedIn</a> </li>
+          <li> <a href="https://github.com/breakfastatiffs/" target="_blank">GitHub</a> </li>
+          <li> <a href="mailto:TiffanySummerford@gmail.com?subject=Great%20Portfolio!">Email Me</a> </li>
+        </ul>
       </div>
   </body>
+
+  <div class="item-double">
+    <form action="https://formspree.io/xyyndvqr" method="post">
+      <input type="text" name="name" placeholder="First Name" required>
+      <input type="text" name="name" placeholder="Last Name" required>
+      <br>
+      <input type="email" name="_replyto" placeholder="Email" id="email" required>
+      <br>
+      <input id="formMessage" textarea name="message" required></textarea>
+      <br>
+      <input type="submit" id="button" value="Send">
+    </form>
+    <script src="script.js"> </script>
+  </div>
 </main>
-
-
-<!-- footer-->
-<footer>
-  <script src="script.js"> </script>
-</footer>
 
 </html>
