@@ -1,7 +1,7 @@
 body{
   display: flex;
   flex-direction: column;
-  background: #DEB5D6 ;
+  background: #ffcad4 ;
   margin: 20px;
   padding: 8px;
   font-family: oswald;
@@ -69,7 +69,7 @@ header h2{
 }
 
 #letsChat{
-  color: #382E5C;
+  color: #3c096c;
   font-size: 1.2em;
   font-style: italic;
   font-weight: bold;
@@ -158,7 +158,7 @@ form{
 
 }
 
-a:link {color:#A3398C;}
+a:link {color:#861657;}
 a:visited {color: #42376D;}
-a:hover {color: #6E9887;}
+a:hover {color: #9d4edd;}
 a:active {color: #FDFCDD;}
