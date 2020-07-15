@@ -80,15 +80,13 @@ header h2{
 form{
   padding: 5px;
   margin: 5px;
-  text-align: center;
+  text-align: right;
 }
 
 #formMessage{
   margin: 5px;
   height: 60px;
 }
-
-
 
 
 @media all and (min-width: 600px){
