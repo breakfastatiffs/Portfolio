@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -12,27 +12,28 @@
 </head>
 
 <main>
-  <header>
-    <h1>Tiffany Summerford</h1>
-    <h2>Software Engineer</h2>
-    <nav>
-      <ul>
-        <li>
-          <a href="#about">About</a>
-        </li>
-        <li>
-          <a href="#projects">Projects</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
 
   <body>
+    <header>
+      <h1>Tiffany Summerford</h1>
+      <h2>Software Engineer</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
     <!--intro-->
-    <div class="group">
+    <section class="group">
       <div class="item-double"> <img src="images/Tiff.JPG" width="200" alt="Picture of Tiffany Summerford"></div>
       <div class="item">
         <h3>Hey There!</h3>
@@ -53,7 +54,7 @@
           better place
         </p>
       </div>
-    </div>
+    </section>
 
 
     <p id="letsChat">If you think we'd make a great team, <a href="#contact">let's chat!</a>
@@ -61,11 +62,10 @@
 
     <a id="projects"></a>
     <h3>Projects</h3>
-    <div class="group">
+    <section class="group">
       <div class="item">
         <h4>Title of First Project</h4>
-        <a href="landingPageURL1">
-          <img src="images/sample.jpg" alt="sample-project"></a>
+        <a href="landingPageURL1"> <img src="images/sample.jpg" alt="sample-project"></a>
         <p class="projectTitles">Description:</p>
         <p>Area elit a maioribus, qui ad artes seu meliorationem humanitatem habet passion! Sicut Gandhi semel dixit
           "eris, te volo ad mutationem in mundo." - ego igitur semper, scientes quod conatus ad amplio ipse facit:
@@ -79,13 +79,11 @@
       </div>
       <div class="item">
         <h4>Title of Second Project</h4>
-        <a href="landingPageURL2">
-          <img src="images/sample.jpg" alt="sample-project"></a>
+        <a href="landingPageURL2"> <img src="images/sample.jpg" alt="sample-project"></a>
         <p class="projectTitles">Description:</p>
         <p>Friendster mea interest in coding started quasi hedum in frusta concerperet, cum adhuc esset popularibus. Ego
           probaverunt circum ludere cum meis profile AESTHETICA et remanens, quomodo ad eum appellantibusque amplius.
-          Ego
-          semper partum fuerit homo in exigua forma et studied.</p>
+          Ego semper partum fuerit homo in exigua forma et studied.</p>
         <p class="projectTitles">Skills Used:</p>
         <p>Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter</p>
         <a href="landingPageURL1">Link to app</a>
@@ -94,23 +92,21 @@
       </div>
       <div class="item">
         <h4>Title of Third Project</h4>
-        <a href="landingPageURL3">
-          <img src="images/sample.jpg" alt="sample-project"></a>
+        <a href="landingPageURL3"> <img src="images/sample.jpg" alt="sample-project"></a>
         <p class="projectTitles">Description:</p>
         <p>Ego amare oppidum, sed me minus interested in materialismo ponens et plus interested in agris operantes cum
           aliis ad participes et commune propositum wanting facere mundum meliore loco. Quidam artes providere quia
-          bigas
-          est non possum.</p>
+          bigas est non possum.</p>
         <p class="projectTitles">Skills Used:</p>
         <p>Passione existens. Exquisiui & corporis. Sicut enim homo qui constanter</p>
         <a href="landingPageURL1">Link to app</a>
         <br>
         <a href="landingPageURL1">Link to repo</a>
       </div>
-    </div>
+    </section>
 
     <!-- contact info -->
-    <div class="group">
+    <section class="group">
       <div class="item">
         <h3>Stay In Touch</h3>
         <ul id="socialMedia">
@@ -119,21 +115,22 @@
           <li> <a href="mailto:TiffanySummerford@gmail.com?subject=Great%20Portfolio!">Email Me</a> </li>
         </ul>
       </div>
+    </section>
   </body>
 
-  <div class="item-double">
+  <section class="item-double">
     <form action="https://formspree.io/xyyndvqr" method="post">
       <input type="text" name="name" placeholder="First Name" required>
       <input type="text" name="name" placeholder="Last Name" required>
       <br>
       <input type="email" name="_replyto" placeholder="Email" id="email" required>
       <br>
-      <input id="formMessage" textarea name="message" required></textarea>
+      <textarea id="formMessage" name="message" required></textarea>
       <br>
       <input type="submit" id="button" value="Send">
     </form>
     <script src="script.js"> </script>
-  </div>
+  </section>
 </main>
 
 </html>
