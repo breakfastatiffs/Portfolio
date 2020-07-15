@@ -1,9 +1,18 @@
-main{
+body{
   display: flex;
   flex-direction: column;
   background: #DEB5D6 ;
   margin: 20px;
   padding: 8px;
+  font-family: oswald;
+}
+
+body ul{
+  padding-inline-start: 30px;
+}
+
+body ul li{
+  padding: 3px
 }
 
 .flexGroup{
@@ -49,20 +58,6 @@ header h2{
 .projectTitles{
   font-style: oblique;
   font-weight: 700;
-}
-
-body{
-  color: #211B36;
-  font-family: oswald;
-  padding: 5px;
-}
-
-body ul{
-  padding-inline-start: 30px;
-}
-
-body ul li{
-  padding: 3px
 }
 
 #button{
